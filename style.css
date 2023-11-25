@@ -1,0 +1,29 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* My Colors */
+/* BLACK #0c0c0c  rgb(12, 12, 12)
+   GOLD #FFD585 rgb(255, 213, 133)
+  WHITE #FFFFFF rgb(255, 255, 255)
+*/
+
+body {
+  background-image: url(assets/wood.svg);
+}
+@media only screen and (max-width: 600px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .numbers-box {
+    margin-top: 100px;
+    height: 600px;
+    width: 400px;
+    background-color: aliceblue;
+  }
+}
